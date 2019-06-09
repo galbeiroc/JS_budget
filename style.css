@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+:root {
+    --mainWhite: #f5f5f5;
+    --mainDark: #333333;
+}
+
+body {
+    background: var(--mainWhite);
+    color: var(--mainDark)
+}
+h1 {
+    font-family: 'Inconsolata', monospace;
+    text-shadow:2px 2px 2px #000000;
+    padding: 20px;
+}
+
+h3 {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    text-shadow:1px 1px 1px #000000;
+    
+}
+
+h4 {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    text-shadow:1px 1px 1px #000000;
+}
+
+.budget-feedback,
+.expense-feedback {
+  display: none;
+}
+label {
+    font-family: 'PT Sans', sans-serif;
+    padding: 5px;
+}
+
+.fa-money-bill-alt, .fa-credit-card, .fa-dollar-sign {
+    text-align: center;
+    font-size: 40px;
+    color: #339af0;
+}
+
+.budget {
+    color: #00b300;
+    font-size: 1.8em;
+    font-family: 'Inconsolata', monospace;
+}
+.expense {
+    color: #ff1a1a;
+    font-size: 1.8em;
+    font-family: 'Inconsolata', monospace;
+}
+.balance{
+    color: var(--mainDark);
+    font-size: 1.8em;
+    font-family: 'Inconsolata', monospace;
+}
+
+.colmFirst {
+    border: 1.5px solid #00b300;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.rowSecond {
+    border: 1.5px solid #ff1a1a;
+    border-radius: 5px;
+    padding: 20px
+}
+ input {
+     width: 300px;
+ }
+.btn {
+    margin: 10px 0px 0px 0px; 
+}
+.success {
+    color: #00b300;
+    border: 1px solid #00b300;
+}
+.success:hover {
+    background:  #00b300;
+    border: 1px solid var(--mainDark);
+}
+
+.danger {
+    color: #ff1a1a;
+    border: 1px solid #ff1a1a;
+}
+.danger:hover {
+    background: #ff1a1a;
+    border: 1px solid var(--mainDark);
+}
+
+.showRed {
+    color: #ff1a1a;
+}
+.showGreen {
+    color: #00b300;
+}
+.showBlack {
+    color: var(--mainDark);
+}
+.showItem {
+    display: block;
+}
+
+.list-item {
+    flex: 0 0 33.33%;
+    text-align: center;
+}
+
+.edit-icon {
+    color: #3333ff;
+    cursor: pointer;
+    font-size: 2rem;
+    text-decoration: none !important;
+}
+.edit-icon:hover {
+    color: #4dd2ff;
+}
+
+.delete-icon {
+    color: #ff1a1a;
+    cursor: pointer;
+    font-size: 2rem;
+    text-decoration: none !important;
+}
+
+.delete-icon:hover {
+    color: #ff8533;
+}
